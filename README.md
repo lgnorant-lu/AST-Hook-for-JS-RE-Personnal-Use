@@ -2,7 +2,7 @@
 
 一个用于JavaScript逆向工程的AST Hook工具。
 
-> 本项目基于 [JSREI/ast-hook-for-js-RE](https://github.com/JSREI/ast-hook-for-js-RE) 进行优化和改进。
+> 本项目基于 [JSREI/ast-hook-for-js-RE](https://github.com/JSREI/ast-hook-for-js-RE) 进行胡改。
 
 ## 功能特点
 
