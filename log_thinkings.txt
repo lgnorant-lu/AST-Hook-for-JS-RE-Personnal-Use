@@ -1,0 +1,17 @@
+2025/03/13 01:37
+当前的版本,直接可用!
+呜呜呜,太难得了,终于吃上一顿好的了;
+
+语法:
+1. 搜索变量：
+cc11001100_hook.search("1071");  // 搜索值
+cc11001100_hook.searchByName("1071", true);  // 精确搜索变量名
+
+2.导出数据：
+cc11001100_hook.exportData();  // 导出数据
+
+3.添加自定义回调：
+cc11001100_hook.addCallback((name, value, type) => {
+    console.log(`变量 ${name} = ${value} (${type})`);
+});
+

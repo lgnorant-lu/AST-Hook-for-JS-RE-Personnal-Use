@@ -1,0 +1,2 @@
+var searchForm, content;
+_G.JCache && (searchForm = cc11001100_hook("searchForm", _ge(keyMap.SearchForm), "assign"), _G.SRF = cc11001100_hook("_G.SRF", searchForm && searchForm.outerHTML, "assign"), content = cc11001100_hook("content", _ge(keyMap.Content), "assign"), content || (content = cc11001100_hook("content", _ge("sw_content"), "assign")), _G.CNT = cc11001100_hook("_G.CNT", content ? content.outerHTML : null, "assign"));
